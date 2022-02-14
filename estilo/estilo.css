@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   background-color: #f4fffd;
@@ -16,11 +16,14 @@ header button {
   text-decoration: none;
 }
 header {
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   padding: 30px 5%;
   box-shadow: 0 0 10px #465362;
+  z-index: 2;
 }
 #logo {
   cursor: pointer;
@@ -41,12 +44,59 @@ header {
 header button {
   padding: 9px 25px;
   background-color: #011936;
-  color: #f4fffd;
+  color: #ed254e;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
 button:hover {
-  background-color: #465362;1
+  background-color: #465362;
+  color: #f4fffd;
+}
+.container-fluid {
+  padding: 0;
+}
+.carousel-indicators {
+  background: none;
+}
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 90vh;
+}
+#mainSlider .carousel-item img {
+  opacity: 0.7;
+}
+#mainSlider .carousel-caption {
+  background: none;
+  top: 30%;
+}
+#mainSlider .carousel-caption h2 {
+  background: none;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #011936;
+}
+#mainSlider .carousel-caption p {
+  background: none;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #f4fffd;
+}
+.main-btn {
+  color: #ed254e;
+  background-color: #011936;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.main-btn:hover {
+  text-decoration: none;
+  color: #f4fffd;
+  background-color: #465362;
+  transition: all 0.3s;
+}
+.carousel-indicators .active {
+  background-color: #011936;
 }
