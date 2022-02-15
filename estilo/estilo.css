@@ -138,11 +138,13 @@ button:hover {
   height: 80vh;
 }
 .footer-contain {
+  padding: 30px 30px;
+  background-color: #011936;
+}
+.conteudo {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 30px;
-  background-color: #011936;
 }
 .links-referencia h6 {
   color: #fff;
@@ -150,10 +152,28 @@ button:hover {
 .links-referencia ul {
   list-style: none;
 }
+.icons li {
+  display: inline-block;
+}
 .links-referencia ul li a {
   color: #f9dc5c;
   font-size: 14px;
 }
 .links-referencia ul li svg {
   color: #f9dc5c;
+  cursor: pointer;
+  margin: 1px;
+}
+.direitos {
+  color: #f9dc5c;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.direitos a {
+  text-decoration: none;
+  color: #f9dc5c;
+}
+.direitos a:hover {
+  text-decoration: underline;
 }
