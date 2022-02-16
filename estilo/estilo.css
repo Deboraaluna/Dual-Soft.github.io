@@ -7,6 +7,19 @@ body,
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #011936;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ed254e;
+  border-radius: 3px;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -14,22 +27,22 @@ header {
   justify-content: space-between;
   align-items: baseline;
   background-color: #ffffff;
-  padding: 30px 5%;
+  padding: 20px 5%;
   box-shadow: 0 0 5px #465362;
   z-index: 1;
 }
 header a,
-header li,
-header button {
+header li {
   font-weight: 600;
   font-size: 16px;
   color: #011936;
   text-decoration: none;
 }
-#logo {
+#logo img {
   cursor: pointer;
+  width: 170px;
 }
-.menu {
+#logo .menu {
   list-style: none;
 }
 .menu li {
@@ -42,7 +55,8 @@ header button {
 .menu li a:hover {
   color: #ed254e;
 }
-header button {
+button {
+  font-weight: 600;
   padding: 9px 25px;
   background-color: #011936;
   color: #ed254e;
@@ -87,22 +101,7 @@ button:hover {
   margin-bottom: 50px;
   color: #ffffff;
 }
-.main-btn button {
-  padding: 9px 25px;
-  background-color: #011936;
-  color: #ed254e;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 600;
-  font-size: 16px;
-}
-.main-btn button:hover {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #465362;
-}
+
 .box-contain {
   background-color: #ffffff;
   display: flex;
@@ -136,13 +135,12 @@ button:hover {
   height: 80vh;
 }
 .footer-contain {
-  padding: 30px 30px;
+  padding: 30px;
   background-color: #011936;
 }
 .conteudo {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .links-referencia h6 {
   color: #fff;
