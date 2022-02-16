@@ -1,0 +1,15 @@
+.temp h2,
+.temp p {
+  color: #011936;
+}
+.cards {
+  border-radius: 5px;
+  transition: all 0.3s;
+  color: #011936;
+  font-weight: 500;
+}
+.cards:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+  color: #ed254e;
+}
