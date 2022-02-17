@@ -1,0 +1,21 @@
+.temp h2,
+.temp p {
+  color: #011936;
+}
+.cards {
+  border-radius: 5px;
+  transition: all 0.3s;
+  color: #011936;
+  font-weight: 500;
+  box-shadow: 0 0 10px #465362;
+  cursor: pointer;
+}
+.cards:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+  color: #ed254e;
+  box-shadow: 0 0 40px #465362;
+}
+header {
+  position: fixed;
+}

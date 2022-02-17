@@ -1,0 +1,22 @@
+.cards {
+  box-shadow: 0 0 20px #465362;
+  background-color: #fff;
+  color: #011936;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin-top: 3rem;
+}
+.cards:hover {
+  box-shadow: 0 0 25px #465362;
+  transition: all 0.3s ease;
+  transform: scale(1.15);
+  color: #ed254e;
+}
+.cards h5 {
+  text-align: center;
+  padding: 10px 5px;
+}
+.cards img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
