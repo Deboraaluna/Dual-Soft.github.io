@@ -1,0 +1,15 @@
+h2,
+h3,
+p,
+.table {
+  color: #011936;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+.cor-titulo {
+  background-color: #011936;
+  color: #fff;
+}
